@@ -1,0 +1,297 @@
+@font-face{
+	src: url('assets/fonts/georgia/georgia bold.ttf');
+	font-family:'georgia bold' ;
+}
+
+@font-face{
+	src: url('assets/fonts/georgia/georgia bold italic.ttf');
+	font-family:'georgia bold italic' ;
+}
+
+@font-face{
+	src: url('assets/fonts/georgia/Georgia Regular Font.ttf');
+	font-family:'Georgia Regular Font' ;
+}
+
+@font-face{
+	src: url('assets/fonts/georgia/GEORGIAA4.TTF');
+	font-family:'GEORGIAA4.TTF' ;
+}
+
+/* ===================================================
+             HEADER STYLE START
+====================================================== */
+
+header{
+    margin-bottom: 40px;
+} */
+
+.header_top_bar{
+    width: 100%;
+    height: 10px;
+    background: #894aa3;
+}
+
+.search_form input{
+    position: relative;
+    margin-top: 10px;
+    background: #ebebea;
+    margin-bottom: 30px;
+}
+
+.search_form i {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 14px;
+    text-align: center;
+    color: #894aa3;
+    line-height: 2;
+    cursor: pointer;
+}
+
+nav ul{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #666;
+    font-size: 12px;
+    font-family:'GEORGIAA4.TTF';
+}
+
+nav ul li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+/* ===================================================
+              HEADER STYLE END
+====================================================== */
+
+
+/* ===================================================
+              SLOGAN STYLE START
+====================================================== */
+
+.slogan_section{
+    background: #ebebea;
+    padding: 20px 0;
+}
+
+.slogan{
+    width: 90%;
+    margin: 0 auto;
+    font-family:'georgia bold italic';
+    text-align: center;
+}
+
+.slogan h2{
+    font-size: 25px;
+}
+
+/* ===================================================
+             SLOGAN STYLE END
+====================================================== */
+
+
+/* ===================================================
+             SLIDER STYLE START
+====================================================== */
+
+.slider_section{
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 600px;
+}
+
+/* ===================================================
+              SLIDER STYLE END
+====================================================== */
+
+
+/* ===================================================
+              SERVICE STYLE START
+====================================================== */
+
+.service_area{
+    margin-top: 45px;
+}
+
+.service_area h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #894aa3;
+    font-family:'Georgia Regular Font' ;
+}
+
+.service_area p{
+    font-size: 13px;
+    color: #666;
+    font-family:'Georgia Regular Font' ;
+}
+
+/* ===================================================
+                SERVICE STYLE END
+====================================================== */
+
+
+/* ===================================================
+                 TEAM STYLE START
+====================================================== */
+
+.team_section{
+    width: 100%;
+    height: 420px;
+    background: #ebebea;
+    padding: 50px;
+}
+
+.single_team_box{
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.team_section img{
+    width: 100%;
+    height: 180px;
+}
+
+.team_section h3{
+    font-size: 20px;
+    margin: 15px auto;
+    font-weight: 600;
+    color: #894aa3;
+    font-family:'Georgia Regular Font' ;
+}
+
+.team_section p{
+    font-size: 13px;
+    padding: 0 40px;
+    text-align: center;
+    color: #666;
+    font-family:'Georgia Regular Font' ;
+}
+
+/* ===================================================
+               TEAM STYLE END
+====================================================== */
+
+
+
+/* ===================================================
+               FOOTER STYLE START
+======================================================= */
+
+.footer{
+    margin-top: 40px;
+ }
+
+.footer h3{
+    color: #666666;
+    opacity: .6;
+    font-size: 18px;
+    font-family:'georgia bold';
+}
+.footer p{
+    color: #666666;
+    opacity: .6;
+    font-size: 16px;
+    font-family: 'Georgia Regular Font';
+    margin-bottom: 0;    
+}
+
+.quick_link li{
+    line-height: 2;
+    border-bottom: 1px solid #eaeaeb;
+    list-style: none;
+    margin-left: -40px;
+}
+
+.quick_link li a{
+    text-decoration: none;
+    color: #000;
+    opacity: .6;
+    font-size: 15px;
+    text-align: left;
+}
+
+.single_footer_widget h5{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+    opacity: .6;
+}
+
+.footer_blog_post a{
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    color: #894aa3;
+    font-size: 15px;
+    font-family: 'Georgia Regular Font';
+}
+
+.footer_blog_post i{
+    margin-left: 3px;
+    font-size: 12px;
+}
+
+.footer_form input{
+    background: #e6e6e6;
+}
+
+input[type="submit"]{
+    color: #874ca0;
+    font-weight: 600;
+    font-family: 'Georgia Regular Font';
+}
+
+/* ===================================================
+                FOOTER STYLE START
+====================================================== */
+
+
+/* ====================================================
+                COPYRIGHT STYLE STTART
+======================================================== */
+
+.copyright_area{
+    margin-top: 40px;
+    width: 100%;
+    height: 56px;
+    background: #444444;
+    padding: 20px;
+}
+
+.copyright_area p{
+    color: #fff;
+    opacity: .7;
+    font-size: 13px;
+    font-family: 'Georgia Regular Font';
+}
+
+/* =======================================================
+                 COPYRIGHT STYLE STTART
+========================================================== */
+
